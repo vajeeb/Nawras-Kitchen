@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,7 +50,6 @@
 				FE08209F030E98C59D5A98AF /* Pods-nawras-kitchen.debug.xcconfig */,
 				08CAAFFCE78868FE34995E51 /* Pods-nawras-kitchen.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
