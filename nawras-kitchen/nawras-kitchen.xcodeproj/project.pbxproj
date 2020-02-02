@@ -13,9 +13,13 @@
 		CC56625B23E72134007532C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC56625A23E72134007532C3 /* Assets.xcassets */; };
 		CC56625E23E72134007532C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC56625D23E72134007532C3 /* Preview Assets.xcassets */; };
 		CC56626123E72134007532C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC56625F23E72134007532C3 /* LaunchScreen.storyboard */; };
+		CC56626923E774BD007532C3 /* Chameleon-2.2.0 in Resources */ = {isa = PBXBuildFile; fileRef = CC56626823E774BD007532C3 /* Chameleon-2.2.0 */; };
+		F600270D9897E860710A1644 /* Pods_nawras_kitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644B63792B150F5CCCD08B85 /* Pods_nawras_kitchen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08CAAFFCE78868FE34995E51 /* Pods-nawras-kitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nawras-kitchen.release.xcconfig"; path = "Target Support Files/Pods-nawras-kitchen/Pods-nawras-kitchen.release.xcconfig"; sourceTree = "<group>"; };
+		644B63792B150F5CCCD08B85 /* Pods_nawras_kitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nawras_kitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC56625123E72133007532C3 /* nawras-kitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nawras-kitchen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC56625423E72133007532C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC56625623E72133007532C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		CC56625D23E72134007532C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC56626023E72134007532C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC56626223E72134007532C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC56626823E774BD007532C3 /* Chameleon-2.2.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Chameleon-2.2.0"; sourceTree = "<group>"; };
+		FE08209F030E98C59D5A98AF /* Pods-nawras-kitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nawras-kitchen.debug.xcconfig"; path = "Target Support Files/Pods-nawras-kitchen/Pods-nawras-kitchen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F600270D9897E860710A1644 /* Pods_nawras_kitchen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		074CD4CF113078CF46DB96DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE08209F030E98C59D5A98AF /* Pods-nawras-kitchen.debug.xcconfig */,
+				08CAAFFCE78868FE34995E51 /* Pods-nawras-kitchen.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		145F7302BD3670D08D1D3823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				644B63792B150F5CCCD08B85 /* Pods_nawras_kitchen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC56624823E72133007532C3 = {
 			isa = PBXGroup;
 			children = (
+				CC56626823E774BD007532C3 /* Chameleon-2.2.0 */,
 				CC56625323E72133007532C3 /* nawras-kitchen */,
 				CC56625223E72133007532C3 /* Products */,
+				074CD4CF113078CF46DB96DA /* Pods */,
+				145F7302BD3670D08D1D3823 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC56626523E72134007532C3 /* Build configuration list for PBXNativeTarget "nawras-kitchen" */;
 			buildPhases = (
+				86AB22C17EBD2173B75A8030 /* [CP] Check Pods Manifest.lock */,
 				CC56624D23E72133007532C3 /* Sources */,
 				CC56624E23E72133007532C3 /* Frameworks */,
 				CC56624F23E72133007532C3 /* Resources */,
+				6395E81C005E15279FAD7777 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC56626923E774BD007532C3 /* Chameleon-2.2.0 in Resources */,
 				CC56626123E72134007532C3 /* LaunchScreen.storyboard in Resources */,
 				CC56625E23E72134007532C3 /* Preview Assets.xcassets in Resources */,
 				CC56625B23E72134007532C3 /* Assets.xcassets in Resources */,
@@ -140,6 +171,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6395E81C005E15279FAD7777 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nawras-kitchen/Pods-nawras-kitchen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nawras-kitchen/Pods-nawras-kitchen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nawras-kitchen/Pods-nawras-kitchen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86AB22C17EBD2173B75A8030 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nawras-kitchen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC56624D23E72133007532C3 /* Sources */ = {
@@ -282,6 +355,7 @@
 		};
 		CC56626623E72134007532C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE08209F030E98C59D5A98AF /* Pods-nawras-kitchen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +369,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vajeeb.nawras-kitchen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,6 +377,7 @@
 		};
 		CC56626723E72134007532C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08CAAFFCE78868FE34995E51 /* Pods-nawras-kitchen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,6 +391,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vajeeb.nawras-kitchen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
