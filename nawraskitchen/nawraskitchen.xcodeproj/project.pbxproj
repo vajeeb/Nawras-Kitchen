@@ -17,6 +17,12 @@
 		CC2EAEC223EB0E330027571C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2EAEC123EB0E330027571C /* SignUpViewController.swift */; };
 		CC2EAEC423EB17970027571C /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2EAEC323EB17970027571C /* CustomNavigationController.swift */; };
 		CC2EAEC723EB1CDB0027571C /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = CC2EAEC623EB1CDB0027571C /* Icons */; };
+		CC2EAED823EC5C1E0027571C /* flavor_icons in Resources */ = {isa = PBXBuildFile; fileRef = CC2EAED723EC5C1E0027571C /* flavor_icons */; };
+		CC2EAF0023EC5F560027571C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2EAEFF23EC5F560027571C /* HomeTableViewController.swift */; };
+		CC2EAF0223EC5F8E0027571C /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2EAF0123EC5F8E0027571C /* CategoryTableViewController.swift */; };
+		CC2EAF0423EC5FBB0027571C /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2EAF0323EC5FBB0027571C /* FavoriteTableViewController.swift */; };
+		CC2EAF0623EC5FF90027571C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2EAF0523EC5FF90027571C /* ProfileViewController.swift */; };
+		CC2EAF0823EC60DA0027571C /* BigPicture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2EAF0723EC60DA0027571C /* BigPicture.storyboard */; };
 		CC556B4223E7922400F931E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC556B4123E7922400F931E3 /* AppDelegate.swift */; };
 		CC556B4423E7922400F931E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC556B4323E7922400F931E3 /* SceneDelegate.swift */; };
 		CC556B4923E7922400F931E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC556B4723E7922400F931E3 /* Main.storyboard */; };
@@ -37,6 +43,12 @@
 		CC2EAEC123EB0E330027571C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CC2EAEC323EB17970027571C /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		CC2EAEC623EB1CDB0027571C /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Icons; path = ../../../Icons; sourceTree = "<group>"; };
+		CC2EAED723EC5C1E0027571C /* flavor_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = flavor_icons; path = ../../../flavor_icons; sourceTree = "<group>"; };
+		CC2EAEFF23EC5F560027571C /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		CC2EAF0123EC5F8E0027571C /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		CC2EAF0323EC5FBB0027571C /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		CC2EAF0523EC5FF90027571C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC2EAF0723EC60DA0027571C /* BigPicture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BigPicture.storyboard; sourceTree = "<group>"; };
 		CC556B3E23E7922400F931E3 /* nawraskitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nawraskitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC556B4123E7922400F931E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC556B4323E7922400F931E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,8 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				CC2EAEB723E82A870027571C /* LogInSignUpViewController.swift */,
+				CC2EAF0523EC5FF90027571C /* ProfileViewController.swift */,
 				CC2EAEBD23E967200027571C /* LogInViewController.swift */,
 				CC2EAEC123EB0E330027571C /* SignUpViewController.swift */,
+				CC2EAEFF23EC5F560027571C /* HomeTableViewController.swift */,
+				CC2EAF0123EC5F8E0027571C /* CategoryTableViewController.swift */,
+				CC2EAF0323EC5FBB0027571C /* FavoriteTableViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -100,6 +116,7 @@
 		CC2EAEC523EB1C9A0027571C /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				CC2EAED723EC5C1E0027571C /* flavor_icons */,
 				CC2EAEC623EB1CDB0027571C /* Icons */,
 			);
 			path = Icons;
@@ -131,6 +148,7 @@
 				CC556B4123E7922400F931E3 /* AppDelegate.swift */,
 				CC556B4323E7922400F931E3 /* SceneDelegate.swift */,
 				CC556B4723E7922400F931E3 /* Main.storyboard */,
+				CC2EAF0723EC60DA0027571C /* BigPicture.storyboard */,
 				CC556B4A23E7922600F931E3 /* Assets.xcassets */,
 				CC556B4C23E7922600F931E3 /* LaunchScreen.storyboard */,
 				CC556B4F23E7922600F931E3 /* Info.plist */,
@@ -200,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC556B4E23E7922600F931E3 /* LaunchScreen.storyboard in Resources */,
+				CC2EAED823EC5C1E0027571C /* flavor_icons in Resources */,
+				CC2EAF0823EC60DA0027571C /* BigPicture.storyboard in Resources */,
 				CC2EAEC723EB1CDB0027571C /* Icons in Resources */,
 				CC556B4B23E7922600F931E3 /* Assets.xcassets in Resources */,
 				CC556B4923E7922400F931E3 /* Main.storyboard in Resources */,
@@ -255,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC2EAF0423EC5FBB0027571C /* FavoriteTableViewController.swift in Sources */,
 				CC2EAEB823E82A870027571C /* LogInSignUpViewController.swift in Sources */,
+				CC2EAF0023EC5F560027571C /* HomeTableViewController.swift in Sources */,
 				CC2EAEBC23E95D280027571C /* CustomLabel.swift in Sources */,
+				CC2EAF0623EC5FF90027571C /* ProfileViewController.swift in Sources */,
 				CC556B4223E7922400F931E3 /* AppDelegate.swift in Sources */,
 				CC2EAEBE23E967200027571C /* LogInViewController.swift in Sources */,
 				CC2EAEC023EB0BA00027571C /* CustomTextField.swift in Sources */,
@@ -265,6 +288,7 @@
 				CC2EAEC223EB0E330027571C /* SignUpViewController.swift in Sources */,
 				CC556B4423E7922400F931E3 /* SceneDelegate.swift in Sources */,
 				CC2EAEBA23E954750027571C /* CustomButton.swift in Sources */,
+				CC2EAF0223EC5F8E0027571C /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
