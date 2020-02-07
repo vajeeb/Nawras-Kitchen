@@ -22,7 +22,6 @@
 		CC2EAF0223EC5F8E0027571C /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2EAF0123EC5F8E0027571C /* CategoryTableViewController.swift */; };
 		CC2EAF0423EC5FBB0027571C /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2EAF0323EC5FBB0027571C /* FavoriteTableViewController.swift */; };
 		CC2EAF0623EC5FF90027571C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2EAF0523EC5FF90027571C /* ProfileViewController.swift */; };
-		CC2EAF0823EC60DA0027571C /* BigPicture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2EAF0723EC60DA0027571C /* BigPicture.storyboard */; };
 		CC556B4223E7922400F931E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC556B4123E7922400F931E3 /* AppDelegate.swift */; };
 		CC556B4423E7922400F931E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC556B4323E7922400F931E3 /* SceneDelegate.swift */; };
 		CC556B4923E7922400F931E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC556B4723E7922400F931E3 /* Main.storyboard */; };
@@ -48,7 +47,6 @@
 		CC2EAF0123EC5F8E0027571C /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		CC2EAF0323EC5FBB0027571C /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
 		CC2EAF0523EC5FF90027571C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		CC2EAF0723EC60DA0027571C /* BigPicture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BigPicture.storyboard; sourceTree = "<group>"; };
 		CC556B3E23E7922400F931E3 /* nawraskitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nawraskitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC556B4123E7922400F931E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC556B4323E7922400F931E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 				CC556B4123E7922400F931E3 /* AppDelegate.swift */,
 				CC556B4323E7922400F931E3 /* SceneDelegate.swift */,
 				CC556B4723E7922400F931E3 /* Main.storyboard */,
-				CC2EAF0723EC60DA0027571C /* BigPicture.storyboard */,
 				CC556B4A23E7922600F931E3 /* Assets.xcassets */,
 				CC556B4C23E7922600F931E3 /* LaunchScreen.storyboard */,
 				CC556B4F23E7922600F931E3 /* Info.plist */,
@@ -219,7 +216,6 @@
 			files = (
 				CC556B4E23E7922600F931E3 /* LaunchScreen.storyboard in Resources */,
 				CC2EAED823EC5C1E0027571C /* flavor_icons in Resources */,
-				CC2EAF0823EC60DA0027571C /* BigPicture.storyboard in Resources */,
 				CC2EAEC723EB1CDB0027571C /* Icons in Resources */,
 				CC556B4B23E7922600F931E3 /* Assets.xcassets in Resources */,
 				CC556B4923E7922400F931E3 /* Main.storyboard in Resources */,
